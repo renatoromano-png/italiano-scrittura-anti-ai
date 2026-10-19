@@ -211,6 +211,8 @@ Cinque voci, struttura identica, etichette ripetute nel testo che le segue. Tre 
 
 > «La nuova versione cambia quattro cose: interfaccia ridisegnata, tempi di caricamento dimezzati, crittografia end-to-end, scalabilità testata fino a 50.000 utenti contemporanei. La quinta cosa, che non vediamo dal pannello ma fa la differenza, è che il sistema regge le query complesse che prima ammazzavano il database.»
 
+**Anche fuori dagli elenchi.** La stessa etichetta in grassetto compare in testa ai paragrafi di relazioni, circolari e note informative: *Margine. Il margine lordo scende…*, *Valutazione. A nostro giudizio…*. Nei campioni misurati con questa skill era sparita nella 1.6.0 e nella 1.7.0 ed è tornata nella 1.9.0, in cinque testi professionali su sette. Si corregge allo stesso modo: titoli veri se servono sezioni, altrimenti la prima frase porta il concetto (*Il margine lordo scende al 31%…*). `scripts/controlla_testo.py` la segnala.
+
 **Quando la lista ha senso e va mantenuta:** voci davvero indipendenti, parallele, lette per riferimento (checklist operativa, elenco di requisiti, sequenza di passaggi numerati). In quel caso bullet point giustificato, senza grassetto dell'header.
 
 ## 8. Header frammentato con frase di rincalzo

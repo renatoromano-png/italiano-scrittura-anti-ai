@@ -92,7 +92,7 @@ Serve a difendere un testo umano accusato ingiustamente. Non serve a far passare
 
 ## Che cosa contiene
 
-Tredici guide, caricate da Claude quando servono, più le diciannove regole che valgono sempre.
+Tredici guide, caricate da Claude quando servono, più le venti regole che valgono sempre.
 
 | Guida | Che cosa porta |
 | --- | --- |

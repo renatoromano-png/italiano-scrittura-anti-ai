@@ -4,7 +4,20 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+## [1.10.0] - 2026-10-19
+
+I due tic che il quarto campione aveva lasciato aperti.
+
 ### Aggiunto
+
+- `SKILL.md`: la regola 20, niente titoletti in grassetto in testa a paragrafi o voci di elenco. Nel quarto campione erano tornati in cinque testi professionali su sette. `references/pattern-strutturali.md` §7 estende il pattern dagli elenchi ai paragrafi.
+- `scripts/controlla_testo.py`: due controlli nuovi, il titoletto in grassetto e la densità della virgola prima di *e*, segnalata quando supera una ogni 400 parole. Sui campioni la densità eccessiva compare in 18 testi su 21 con la 1.5.0 e in 3 con la 1.9.0. Venticinque autoprove.
+
+### Modificato
+
+- `SKILL.md`, regola 17: la soglia diventa misurata, al massimo una virgola prima di *e* ogni 400 parole anche quando sono tutte lecite (nella prosa umana di PAISÀ ce n'è circa una ogni 550), con un'attenzione particolare per blog e articoli.
+- `README.md`: le regole dichiarate passano da diciannove a venti.
+
 
 - `extras/campioni/v1.9.0` e il quarto confronto nel `RAPPORTO.md`. Con la 1.9.0 la virgola prima di *e* scende al 5,4% delle *e* su tutti i registri, sotto il 7% della prosa umana, ma nei blog resta al 12,5%. I blog usano il punto e virgola 2,4 volte ogni 1000 parole, contro lo zero delle versioni precedenti. Torna invece il titoletto in grassetto nei testi professionali.
 
