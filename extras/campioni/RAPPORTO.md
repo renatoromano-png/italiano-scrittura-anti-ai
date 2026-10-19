@@ -193,3 +193,26 @@ Stesse richieste, versione 1.11.0 con il tetto al punto e virgola. 7.114 parole.
 **Cosa resta lontano dalla prosa umana.** La variazione della lunghezza delle frasi (0,51 contro 0,64), che sei versioni non hanno spostato, e i due punti nei blog, scesi a meno della metà del valore umano.
 
 **Conclusione dopo sei campioni.** Le regole che vietano un tic (em-dash, contrasto fittizio, vissuto inventato, titoletti in grassetto, suspense) lo eliminano in una o due versioni e non producono effetti collaterali. Le regole di frequenza (virgola prima di *e*, punto e virgola) tendono invece a oscillare: prima troppo, poi troppo poco, poi un valore fisso. Stringerle ancora rischia di sostituire un tic con un altro. Il passo successivo è lavorare sulla variazione, con regole che chiedono di alternare invece di fissare quote.
+
+---
+
+# Settimo campione: versione 1.12.0
+
+Stesse richieste, versione 1.12.0: le regole 15, 17 e 19 danno una misura della prosa umana invece di una quota.
+
+| Misura, blog | 1.5.0 | 1.11.0 | 1.12.0 | PAISÀ blog |
+|---|---|---|---|---|
+| Parole per frase, media | 14,9 | 15,0 | 19,4 | 25,2 |
+| Frasi oltre le 35 parole | 1,9% | 1,1% | 11,5% | 20,6% |
+| Variazione lunghezza frasi | 0,51 | 0,51 | 0,59 | 0,64 |
+| Punto e virgola ogni 1000 parole | 0 | 2,5 | 1,0 | 1,6 |
+| Blog con un punto e virgola | 0 su 7 | 7 su 7 | 3 su 7 | |
+| *e* precedute da virgola | 32,9% | 0% | 12,7% | 7,0% |
+
+**Lunghezza delle frasi.** È il primo spostamento dopo sei versioni ferme. La media sale da 15 a 19 parole, i periodi oltre le 35 parole passano dall'1% all'11,5% e la variazione da 0,51 a 0,59. La distanza dalla prosa umana si è più che dimezzata, anche se non è chiusa. Lo stesso effetto vale per tutti i registri: media da 16 a 20 parole, periodi lunghi dal 4% al 10%.
+
+**Punto e virgola.** Non c'è più la quota fissa: tre blog ne hanno uno, quattro nessuno, 1,0 ogni 1000 parole contro l'1,6 umano. È la distribuzione che ci si aspetta da chi lo usa dove serve.
+
+**Virgola prima di *e*.** Risale al 12,7% nei blog, dopo lo zero della 1.11.0. Le occorrenze lette a mano sono quasi tutte cambi di soggetto dentro periodi lunghi (*il congelatore invece la ferma quasi del tutto, e una fetta congelata…*), cioè il caso che la regola 17 ammette. I periodi più lunghi portano con sé più coordinate e quindi più occasioni legittime. Il valore resta sopra quello umano e va seguito, ma il tic dei primi campioni, la virgola fra proposizioni con lo stesso soggetto, non è tornato.
+
+**Conclusione.** Chiedere variazione funziona meglio che fissare quote: il punto e virgola si distribuisce, i periodi si allungano senza una soglia per paragrafo. È la prima versione in cui tutte le misure si muovono nella direzione della prosa umana senza superarla.

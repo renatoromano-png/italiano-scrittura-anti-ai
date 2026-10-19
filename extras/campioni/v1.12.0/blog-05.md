@@ -1,0 +1,13 @@
+# Come funziona la raccolta differenziata dell'alluminio
+
+Che fine fa una lattina dopo che l'abbiamo buttata nel bidone giusto? La risposta è più interessante di quanto sembri, perché l'alluminio è uno dei pochi materiali che si possono riciclare all'infinito senza perdere qualità: la lattina di aranciata può tornare lattina, o diventare il telaio di una bicicletta, il cerchione di un'auto, una caffettiera.
+
+Il primo dubbio riguarda il bidone. In Italia l'alluminio non ha quasi mai un contenitore tutto suo. A seconda del comune finisce insieme alla plastica, insieme al vetro oppure nella raccolta multimateriale dei metalli: l'unico modo per saperlo è leggere le indicazioni del proprio gestore dei rifiuti. Cambiare città e continuare a fare come prima è l'errore più comune.
+
+Fra gli oggetti da conferire ci sono le lattine delle bibite, le scatolette del tonno e dei cibi per animali, i vassoi e la carta stagnola (che in realtà è alluminio), le bombolette spray vuote, i tappi a vite delle bottiglie di vino, i tubetti di creme e conserve. Per riconoscerlo, oltre al simbolo «ALU» stampato sulla confezione, basta una calamita: l'acciaio viene attirato, l'alluminio no. Non serve lavare gli imballaggi con cura, è sufficiente svuotarli e togliere i residui più grossi. Schiacciare le lattine aiuta a occupare meno spazio nel sacco.
+
+Dal cassonetto il materiale va in un impianto di selezione, dove i diversi rifiuti vengono separati. L'alluminio, che non è magnetico, viene estratto con un sistema a correnti indotte: un rotore genera un campo magnetico variabile che crea correnti elettriche nei pezzi di metallo non ferroso e li respinge, facendoli letteralmente saltare fuori dal nastro trasportatore e cadere in un contenitore a parte. È uno dei passaggi più ingegnosi di tutta la filiera, oltre che uno dei più efficaci.
+
+Separato e pressato in balle, l'alluminio arriva alle fonderie. Lì viene ripulito dalle vernici e dalle plastiche, fuso e colato in lingotti o in lastre, pronti per tornare nell'industria. Rifondere l'alluminio richiede circa il 5 per cento dell'energia necessaria per produrlo da zero partendo dalla bauxite, il minerale da cui si estrae. Ogni lattina recuperata, in altre parole, risparmia quasi tutta l'energia che sarebbe servita per farne una nuova.
+
+In Italia la filiera degli imballaggi in alluminio è coordinata dal CIAL, il consorzio nazionale che sostiene i comuni nella raccolta e garantisce che il materiale raccolto venga effettivamente avviato al riciclo. I risultati italiani sono fra i migliori d'Europa. Il punto debole resta quello domestico: una vaschetta finita nell'indifferenziato è persa, e con lei l'energia che si sarebbe risparmiata.

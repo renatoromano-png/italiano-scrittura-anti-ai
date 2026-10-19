@@ -4,6 +4,10 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- `extras/campioni/v1.12.0` e il settimo confronto nel `RAPPORTO.md`. Nei blog la frase media sale da 15 a 19 parole e i periodi oltre le 35 dall'1% all'11,5%, contro il 20,6% umano. Il punto e virgola non ha più una quota fissa: tre blog su sette ne hanno uno. La virgola prima di *e* risale al 12,7%, quasi sempre per cambi di soggetto dentro periodi lunghi.
+
 ## [1.12.0] - 2026-10-19
 
 Le regole di frequenza danno una misura, non una quota. Dopo sei campioni si è visto che fissare una soglia sposta il tic invece di toglierlo.

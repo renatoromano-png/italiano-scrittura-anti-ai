@@ -1,0 +1,13 @@
+# Cosa fare se il vicino fa rumore di notte
+
+Sono le due, il soffitto vibra per la musica del piano di sopra e la sveglia suonerà fra quattro ore. In quel momento la tentazione è salire le scale e bussare con forza, oppure battere sul soffitto con il manico della scopa. Quasi sempre è la mossa che rende più difficile tutto quello che viene dopo.
+
+Il primo passo, per quanto banale, resta la conversazione. Molti vicini rumorosi non hanno idea di quanto si senta il loro televisore, il loro passo sul parquet o la lavatrice fatta partire a mezzanotte, perché il rumore che si produce in casa propria arriva diverso da come lo riceve chi sta sotto. Conviene parlarne di giorno, a mente fredda, spiegando a che ora il disturbo pesa di più. Un biglietto lasciato nella cassetta della posta, scritto con toni civili, funziona meglio di quanto si pensi con chi è difficile da incontrare.
+
+Se la conversazione non basta e si vive in un condominio, il riferimento successivo è il regolamento condominiale, che spesso stabilisce fasce orarie di silenzio. L'amministratore può richiamare per iscritto il condomino che non le rispetta. Non ha poteri di polizia, ma una lettera ufficiale ha un peso diverso da una lamentela sul pianerottolo, e lascia una traccia.
+
+Quando il rumore diventa abituale serve documentarlo. Un diario con date, orari e tipo di disturbo, registrazioni audio, il nome di altri vicini che sentono le stesse cose: tutto questo servirà se la questione arriverà davanti a un giudice. Il codice civile, all'articolo 844, consente di opporsi alle immissioni di rumore che superano la normale tollerabilità. La tollerabilità si valuta caso per caso, tenendo conto anche della zona e dell'ora. A volte il giudice chiede una perizia fonometrica, che misura il rumore dentro l'abitazione di chi si lamenta.
+
+Esiste poi un piano penale. L'articolo 659 del codice penale punisce chi disturba il riposo delle persone con schiamazzi o rumori, ma la giurisprudenza lo applica quando il disturbo può raggiungere un numero indeterminato di persone, per esempio un intero palazzo, non quando la lite riguarda solo due appartamenti. Nelle situazioni acute, la festa che va avanti a notte fonda, si può chiamare la polizia locale o i carabinieri, che possono intervenire e verbalizzare.
+
+Prima della causa, in molti casi, conviene passare da un mediatore. Costa meno di un processo, richiede settimane anziché anni e lascia aperta la possibilità di continuare a vivere uno sopra l'altro senza odiarsi. Chi ha già alle spalle un diario dei rumori e una lettera dell'amministratore ci arriva con buoni argomenti, e spesso basta questo perché il vicino abbassi il volume.
