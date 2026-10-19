@@ -123,3 +123,29 @@ PAISÀ è un corpus di web italiano raccolto nel 2010, prima dei modelli linguis
 **Variazione della lunghezza delle frasi.** I blog di Claude sono un po' più regolari di quelli umani (0,57 contro 0,64): la differenza c'è, ma è piccola.
 
 **Limiti.** I blog di Claude sono solo sette per versione. PAISÀ ha sedici anni e alcuni documenti di blog uniscono più articoli o commenti. Le misure sono euristiche: servono a confrontare ordini di grandezza, non a giudicare un testo singolo.
+
+---
+
+# Quarto campione: versione 1.9.0
+
+Stesse richieste, versione 1.9.0 con la regola 19 sul punto e virgola, la suspense *è un altro* nel catalogo e la guida alle aperture variate. 7.365 parole.
+
+| Misura | 1.5.0 | 1.6.0 | 1.7.0 | 1.9.0 | PAISÀ blog |
+|---|---|---|---|---|---|
+| *e* precedute da virgola, tutti i registri | 33,9% | 17,3% | 10,6% | 5,4% | 7,0% |
+| *e* precedute da virgola, solo blog | 32,9% | | 15,8% | 12,5% | 7,0% |
+| Punto e virgola nei blog ogni 1000 parole | 0 | | 0 | 2,4 | 1,6 |
+| Suspense *è un altro* ogni 1000 parole | 0,51 | 0,26 | 0 | 0 | 0,01 |
+| Segnaposto ogni 1000 parole | 0 | 5,0 | 1,4 | 1,2 | |
+| Grassetto ogni 1000 parole | 2,7 | 0 | 0 | 3,1 | 0,01 |
+| Variazione lunghezza frasi, blog | 0,51 | | 0,57 | 0,53 | 0,64 |
+
+**Punto e virgola.** Dopo tre versioni senza nessuno, i blog ne hanno 2,4 ogni 1000 parole, appena sopra il valore umano. Quelli letti a mano sono quasi tutti al posto giusto, fra due proposizioni legate (*è probabile che sia alluminio; se torna alla forma originale si tratta di…*). La regola 19 funziona senza essere forzata.
+
+**Virgola prima di *e*.** Su tutti i registri è scesa al 5,4%, sotto il 7% umano. Nei blog resta al 12,5%, quasi il doppio della prosa umana: è il punto dove insistere.
+
+**Aperture.** Nel primo campione tutti e sette i blog si aprivano con una scena. Ora i tipi sono quattro: il fatto (*Il pane comincia a invecchiare appena esce dal forno.*), la data e il luogo (*Torino, 1884.*), la domanda vera (*Quanto rumore deve sopportare chi vive in condominio?*) e una sola scena (*Ore 7.42, il binario di una stazione di provincia.*).
+
+**Tic ricomparso: il titoletto in grassetto.** Nei testi professionali tornano i paragrafi aperti da un'etichetta in grassetto (*Margine. Il margine lordo scende…*, *Valutazione. A nostro giudizio…*). È il pattern 7 di `pattern-strutturali.md`, le liste con header inline grassettato, che nella 1.6.0 e nella 1.7.0 era sparito senza una regola dedicata. Va aggiunto al controllo automatico.
+
+**Uso dello strumento.** L'agente che scriveva il marketing ha lanciato da solo `scripts/controlla_testo.py` sulle bozze, come chiede il SKILL.md, e ha giustificato le segnalazioni rimaste. Sul campione intero lo strumento trova 0 violazioni certe e 17 punti da verificare, contro gli 88 della 1.5.0.

@@ -4,6 +4,10 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- `extras/campioni/v1.9.0` e il quarto confronto nel `RAPPORTO.md`. Con la 1.9.0 la virgola prima di *e* scende al 5,4% delle *e* su tutti i registri, sotto il 7% della prosa umana, ma nei blog resta al 12,5%. I blog usano il punto e virgola 2,4 volte ogni 1000 parole, contro lo zero delle versioni precedenti. Torna invece il titoletto in grassetto nei testi professionali.
+
 ## [1.9.0] - 2026-10-19
 
 Tre interventi ricavati dai campioni e dal confronto con PAISÀ.
