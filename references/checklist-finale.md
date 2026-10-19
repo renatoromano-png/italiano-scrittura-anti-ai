@@ -37,6 +37,7 @@ Scorrere in ordine. Ogni voce è un controllo discreto, con azione pratica.
 - [ ] **Virgolette caporali (« »)** per dialoghi e citazioni dirette
 - [ ] **Virgolette alte (" ")** solo per citazioni dentro citazioni, parole in senso ironico, testate giornalistiche
 - [ ] **Nessuna virgola di Oxford**: *A, B e C*, non *A, B, e C*
+- [ ] **Niente virgola prima di *e* tra proposizioni**, salvo cambio di soggetto ambiguo, stacco ritmico o *e* avversativa: cercare `, e ` e giustificare ogni occorrenza
 - [ ] **Nessuna virgola fra soggetto e verbo**, né fra verbo e oggetto diretto
 - [ ] **Puntini di sospensione sempre tre** (…)
 - [ ] **Titoli in minuscolo** tranne prima parola e nomi propri: *Come ottimizzare la SEO*, non *Come Ottimizzare la SEO*
@@ -173,6 +174,7 @@ Altre stringhe da verificare rapidamente:
 - `qual'è`, `un pò`, `se stesso`, `perchè`, `nè` (errori ortografici ricorrenti)
 - `Ottima domanda`, `Certo!`, `Certamente!`
 - `Sulla base delle informazioni disponibili`
+- `, e ` (virgola prima di *e* tra proposizioni: tenerla solo nei tre casi ammessi da `grammatica-italiana.md` §8)
 - `non è` + `è` (struttura *non è X, è Y* che corregge un equivoco inesistente)
 - `qui sta il punto`, `ecco la cosa`, `la verità è che`, `il fatto è che`
 - `come abbiamo visto`, `vedremo ora`, `andiamo a scoprirlo insieme`, `ti starai chiedendo`
@@ -197,6 +199,7 @@ Tabella finale di consultazione, consolidata dal documento principale e dal comp
 | Lista con header in grassetto | *Performance: Le prestazioni…* | Prosa o bullet senza header |
 | Header con frase di rincalzo | «Performance / La performance è importante» | Entrare direttamente nel contenuto |
 | Em-dash | *La soluzione — che pareva impossibile —* | Virgole o parentesi tonde |
+| Virgola prima di *e* | *ho letto il libro, e l'ho trovato utile* | Togliere la virgola o spezzare con un punto |
 | Title case italiano | *Come Ottimizzare la SEO* | Minuscolo tranne prima parola e nomi propri |
 | Virgolette inglesi | *"Va bene", disse Marco.* | *«Va bene», disse Marco.* |
 | Sinonimia forzata | *Calvino… l'autore… il narratore… il romanziere ligure* | Ripetere il nome o usare pronome |

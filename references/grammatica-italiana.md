@@ -180,6 +180,16 @@ Eccezioni legittime solo in caso di incisi, dislocazioni o focalizzazioni marcat
 
 **Virgola di Oxford:** non si usa in italiano prima della *e* finale di un'enumerazione. Si scrive *A, B e C*, non *A, B, e C*. Eccezione rarissima per disambiguazione.
 
+**Virgola prima di *e* tra proposizioni:** di norma non si mette. La *e* che coordina due proposizioni fa già da legamento; la virgola davanti la raddoppia: *ho letto il libro e l'ho trovato utile*, non *ho letto il libro, e l'ho trovato utile*. La grammatica non la vieta (Serianni, *Grammatica italiana*, cap. I; Mortara Garavelli, *Prontuario di punteggiatura*, Laterza 2003), quindi qui non si parla di errore: il problema è la frequenza. Nei testi generati la sequenza *, e* ricorre a ogni capoverso, perché ricalca la norma inglese che vuole la virgola davanti ad *and* quando collega due proposizioni indipendenti. Ripetuta di continuo, diventa una firma.
+
+La virgola resta legittima in tre casi:
+
+1. **cambio di soggetto con rischio di ambiguità**: *Marco è partito per il Brasile, e noi siamo rimasti a Roma*
+2. **stacco ritmico o enfasi** in un periodo lungo o in una climax: *Parlava, parlava, e nessuno lo ascoltava*
+3. **valore avversativo o conclusivo** della *e*, quando vale *ma* o *eppure*: *Gliel'avevo detto cento volte, e non mi ha dato retta*
+
+Fuori da questi casi si toglie la virgola, oppure si spezza il periodo con un punto o un punto e virgola. Una buona prova: se al posto della virgola il punto non funziona e il ritmo non chiede una pausa, la virgola è di troppo.
+
 **Il punto e virgola** è centrale nella prosa italiana colta: separa coordinate complesse o elementi di elenchi articolati. I modelli linguistici lo usano poco: inserirlo aumenta la naturalezza del testo.
 
 **I due punti** introducono discorso diretto, spiegazione, enumerazione, conseguenza logica.
