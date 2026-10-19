@@ -149,3 +149,24 @@ Stesse richieste, versione 1.9.0 con la regola 19 sul punto e virgola, la suspen
 **Tic ricomparso: il titoletto in grassetto.** Nei testi professionali tornano i paragrafi aperti da un'etichetta in grassetto (*Margine. Il margine lordo scende…*, *Valutazione. A nostro giudizio…*). È il pattern 7 di `pattern-strutturali.md`, le liste con header inline grassettato, che nella 1.6.0 e nella 1.7.0 era sparito senza una regola dedicata. Va aggiunto al controllo automatico.
 
 **Uso dello strumento.** L'agente che scriveva il marketing ha lanciato da solo `scripts/controlla_testo.py` sulle bozze, come chiede il SKILL.md, e ha giustificato le segnalazioni rimaste. Sul campione intero lo strumento trova 0 violazioni certe e 17 punti da verificare, contro gli 88 della 1.5.0.
+
+---
+
+# Quinto campione: versione 1.10.0
+
+Stesse richieste, versione 1.10.0 con la regola 20 sui titoletti in grassetto e la soglia misurata della regola 17. 7.399 parole.
+
+| Misura | 1.9.0 | 1.10.0 | PAISÀ blog |
+|---|---|---|---|
+| Titoletti in grassetto segnalati | 19 | 0 | |
+| *e* precedute da virgola, solo blog | 12,5% | 3,9% | 7,0% |
+| *e* precedute da virgola, tutti i registri | 5,4% | 8,4% | |
+| Punto e virgola nei blog ogni 1000 parole | 2,4 | 5,2 | 1,6 |
+| Righe di elenco ogni 1000 parole | 3,0 | 0,7 | 0,26 |
+| Testi con troppe virgole prima di *e* | 3 | 3 | |
+
+**Titoletti in grassetto.** Spariti del tutto. Le relazioni, la circolare, il verbale e la nota condominiale usano ora titoli veri (`##`). Anche gli elenchi puntati sono scesi a un quarto.
+
+**Virgola prima di *e* nei blog.** Dal 12,5% al 3,9%, per la prima volta sotto la prosa umana. I tre testi che superano la soglia sono di marketing e brevi: due virgole in 265-308 parole, ciascuna con un cambio di soggetto. Per un testo così corto la soglia di una ogni 400 parole è forse troppo stretta.
+
+**Punto e virgola: correzione eccessiva.** I blog sono passati da 2,4 a 5,2 ogni 1000 parole, più di tre volte la prosa umana, con due o tre punti e virgola per articolo. Sono usati in modo corretto (*la catena allungata mangia gli ingranaggi; cambiare catena, pignoni e corona…*), ma la frequenza si fa notare. La regola 19 chiede *almeno uno*; il modello l'ha presa come una quota. Serve un tetto, oltre che un minimo.

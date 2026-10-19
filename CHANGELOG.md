@@ -4,6 +4,10 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- `extras/campioni/v1.10.0` e il quinto confronto nel `RAPPORTO.md`. I titoletti in grassetto spariscono e nei blog la virgola prima di *e* scende al 3,9%, sotto il 7% umano. Il punto e virgola sale invece a 5,2 ogni 1000 parole nei blog, oltre tre volte la prosa umana.
+
 ## [1.10.0] - 2026-10-19
 
 I due tic che il quarto campione aveva lasciato aperti.

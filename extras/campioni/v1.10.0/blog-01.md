@@ -1,0 +1,13 @@
+# Perché il pane fatto in casa diventa duro prima di quello del forno
+
+Il pane non si secca. O meglio, non soprattutto: la pagnotta che il giorno dopo sembra di cartone ha perso pochissima acqua, ed è dentro la mollica che è successo qualcosa. I chimici la chiamano retrogradazione dell'amido. In cottura i granuli di amido assorbono l'acqua dell'impasto, si gonfiano e si sciolgono in una rete morbida; appena il pane si raffredda, le catene di amido cominciano a riordinarsi in strutture cristalline e rigide, che trattengono l'acqua in modo diverso. Il risultato è una mollica che si sbriciola e sa di vecchio.
+
+Questo processo avviene in tutti i pani. Il punto è la velocità.
+
+Il fornaio ha a disposizione alcune armi che in casa mancano. La prima è il forno: a temperature più alte e con il vapore iniettato nei primi minuti, la crosta si forma spessa e uniforme e fa da guscio che rallenta lo scambio di umidità con l'aria. Un forno domestico arriva a fatica ai 250 gradi, perde calore ogni volta che si apre lo sportello e di vapore ne produce poco o niente, a meno di non mettere una teglia d'acqua sul fondo. La seconda arma è l'impasto. Molti panifici lavorano con idratazioni alte, cioè con più acqua rispetto alla farina; un pane più umido indurisce più tardi. Chi impasta a mano tende invece a stare basso, perché un impasto molle si appiccica alle dita ed è difficile da formare.
+
+Poi c'è la questione dei tempi. Le lievitazioni lunghe, quelle che durano una notte intera in frigorifero o che partono da un lievito madre, lasciano agli enzimi della farina il tempo di spezzare parte dell'amido in zuccheri più semplici; meno amido intatto vuol dire meno materiale pronto a cristallizzare. Il pane fatto in casa con il lievito di birra e due ore di riposo è buonissimo la sera stessa e deludente a colazione. Lo decide la chimica dell'amido.
+
+Infine, alcuni prodotti industriali e certi pani di forno contengono ingredienti pensati proprio per questo: grassi, latte, zucchero, oppure enzimi e emulsionanti ammessi dalla legge. Il pan carré che resta soffice per una settimana non ha niente di magico.
+
+Si può rimediare? In parte sì. Alzare un po' l'acqua dell'impasto, allungare la lievitazione, cuocere più a lungo di quanto sembri necessario, lasciar raffreddare il pane su una griglia prima di chiuderlo in un sacchetto di stoffa. E soprattutto evitare il frigorifero, che è il posto peggiore: tra zero e dieci gradi la retrogradazione corre più veloce che a temperatura ambiente. Molto meglio il congelatore, a fette, da tostare al bisogno. Il calore riscioglie in parte i cristalli di amido. La fetta del terzo giorno torna quasi quella della prima sera.

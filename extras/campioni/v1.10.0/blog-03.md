@@ -1,0 +1,13 @@
+# Breve storia dell'espresso, da Torino al bancone sotto casa
+
+Nel 1884, all'Esposizione generale di Torino, un imprenditore di nome Angelo Moriondo presentò una macchina che faceva passare acqua e vapore sotto pressione attraverso il caffè macinato. Ne ottenne un brevetto. Non la produsse mai in serie: la usava nei suoi locali e lì rimase. Eppure l'idea di fondo, preparare una tazza in pochi secondi invece di aspettare l'infusione, era già tutta lì.
+
+A trasformarla in un oggetto da vendere furono due milanesi all'inizio del Novecento. Luigi Bezzera brevettò nel 1901 una macchina con i portafiltri singoli, quelli che ancora oggi il barista aggancia al gruppo con un mezzo giro del polso; Desiderio Pavoni ne comprò i diritti e cominciò a fabbricarla. Le macchine di quegli anni erano enormi caldaie verticali, spesso decorate con aquile e cupole di ottone. Funzionavano a vapore. Il caffè che ne usciva era forte, amaro, con un retrogusto di bruciato che chi beveva allora considerava normale.
+
+Il salto vero arrivò dopo la guerra. Achille Gaggia, barista milanese, mise a punto un sistema a leva che spingeva l'acqua con un pistone, a una pressione molto più alta di quella che il vapore poteva dare e a una temperatura inferiore a quella dell'ebollizione. Sulla superficie della tazza comparve una schiuma color nocciola. I clienti, all'inizio, la guardavano con sospetto, e Gaggia la chiamò «crema naturale di caffè» per convincerli che non c'era niente di strano.
+
+Da lì l'espresso diventa quello che conosciamo: piccolo, denso, bevuto in piedi. Negli anni Cinquanta e Sessanta le macchine si fanno più compatte, poi arriva la pompa elettrica al posto della leva; il bar si moltiplica nelle città che si stanno riempiendo di uffici e fabbriche. Il caffè al banco ha un prezzo basso e un rito preciso. Si entra, si saluta, si beve in due sorsi, si paga, si esce. Pochi minuti, tutti i giorni, per milioni di persone.
+
+Viene spontaneo chiedersi perché proprio l'Italia. Una parte della risposta sta nel fatto che la macchina è stata inventata qui e che una rete di piccoli produttori l'ha diffusa in ogni bar; un'altra sta nelle abitudini. Il caffè lungo all'americana chiede tempo e una tazza grande da portarsi dietro. L'espresso si adatta a una giornata fatta di pause brevi e di luoghi pubblici sotto casa, dove il barista conosce i clienti per nome.
+
+Oggi il resto del mondo beve l'espresso in tazze di carta, lo allunga con il latte, lo chiama con parole italiane pronunciate in mille modi. In Italia, intanto, si discute ancora se il bar debba alzare il prezzo della tazzina. Segno che quei pochi centesimi, per molti, toccano qualcosa di più del portafoglio.
