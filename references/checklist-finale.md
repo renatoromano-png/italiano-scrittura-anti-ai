@@ -25,6 +25,7 @@ Scorrere in ordine. Ogni voce è un controllo discreto, con azione pratica.
 - [ ] **Articoli davanti a sigle e parole straniere**: *l'IBAN, lo SPID, l'SMS, lo humour, l'hotel, il web, uno yeti*
 - [ ] **Plurali in -cia/-gia**: *province, camicie, ciliegie*
 - [ ] **Consecutio temporum**: verbi di opinione reggono il congiuntivo (*penso che sia*, non *penso che è*); periodo ipotetico dell'irrealtà con trapassato più condizionale passato (*se avessi saputo, sarei venuto*)
+- [ ] **Nessun gerundio irrelato**: il soggetto implicito del gerundio coincide con quello della principale (non *entrando nel museo, la prima sala ospita…*)
 - [ ] **Concordanze participio passato**: con *essere* concorda col soggetto, con *avere* concorda col pronome oggetto anteposto (*le ho scelte*)
 - [ ] **Preposizioni**: *a Roma* ma *in Italia*; *credere a una persona* ma *credere in Dio*
 
@@ -187,6 +188,7 @@ Tabella finale di consultazione, consolidata dal documento principale e dal comp
 |---|---|---|
 | Gonfiatura di significato | *si configura come un punto di svolta* | Dichiarare il fatto con dati |
 | Gerundio parassita | *confermando la sua leadership* | Cancellare la coda |
+| Gerundio irrelato | *avendo analizzato i dati, il progetto è stato approvato* | Esplicitare il soggetto o usare una subordinata di modo finito |
 | Linguaggio da brochure | *incastonato nel cuore di* | Dettagli specifici e verificabili |
 | Perifrasi della copula | *rappresenta un punto di riferimento* | Sostituire con *è, ha, fa* |
 | Meta-annuncio | *È importante sottolineare che* | Dire direttamente |

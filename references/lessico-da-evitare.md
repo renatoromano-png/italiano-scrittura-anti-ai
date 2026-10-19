@@ -132,7 +132,7 @@ Il test: eliminarli e vedere se la frase regge. *Nel panorama editoriale italian
 
 ## 5. Formule connettive sovrabbondanti
 
-Usate singolarmente sono normali. Diventano firma AI quando si accumulano a una frequenza innaturale, spesso in apertura di ogni periodo.
+Usate singolarmente sono normali. Diventano firma AI quando si accumulano a una frequenza innaturale, spesso in apertura di ogni periodo. L'uso generoso dei connettivi di raccordo è fra i tratti dei testi generati segnalati dall'Accademia della Crusca (Massimo Palermo, *Sui testi generati dall'intelligenza artificiale. Verso un nuovo rapporto tra norma e uso?*, Accademia della Crusca, Tema del mese, 20 maggio 2026).
 
 **Connettivi additivi:**
 
@@ -251,6 +251,8 @@ Una conclusione umana aggiunge, non riassume: sposta il livello, apre a una cons
 ## 9. Calchi dall'inglese
 
 Strutture formalmente corrette ma che un italiano madrelingua non userebbe mai. I lettori percepiscono l'artificialità anche senza saperne identificare l'origine.
+
+L'Accademia della Crusca dà un nome al fenomeno: nei modelli addestrati soprattutto su testi inglesi i calchi e le interferenze formano un *criptoinglese*, *impronte algoritmiche dell'inglese*, come le chiama Palermo riprendendo De Cesare 2026 (Massimo Palermo, *Sui testi generati dall'intelligenza artificiale. Verso un nuovo rapporto tra norma e uso?*, Accademia della Crusca, Tema del mese, 20 maggio 2026).
 
 **Calchi di posizione sociale:**
 

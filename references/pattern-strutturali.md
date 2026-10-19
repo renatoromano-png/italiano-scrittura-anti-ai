@@ -28,6 +28,7 @@ La regola generale resta la densità: nessun singolo pattern condanna un testo. 
 18. [Dichiarazioni di knowledge cutoff](#18-dichiarazioni-di-knowledge-cutoff)
 19. [Tono servile, adulazione, artefatti chatbot](#19-tono-servile-adulazione-artefatti-chatbot)
 20. [Connettivi sovrabbondanti](#20-connettivi-sovrabbondanti)
+21. [Gerundio irrelato](#21-gerundio-irrelato)
 
 ---
 
@@ -537,3 +538,33 @@ Usati singolarmente sono normali; diventano firma AI quando si accumulano. Il ca
 > «L'azienda ha chiuso il bilancio in utile e ha aumentato gli investimenti in ricerca. Il mercato resta competitivo: il prossimo anno dovrà fare di più.»
 
 Da cinque frasi con connettivo in testa a due frasi scorrevoli.
+
+La sovrabbondanza dei connettivi di raccordo fra le frasi è segnalata anche dall'Accademia della Crusca fra i tratti dei testi generati (Massimo Palermo, *Sui testi generati dall'intelligenza artificiale. Verso un nuovo rapporto tra norma e uso?*, Accademia della Crusca, Tema del mese, 20 maggio 2026, che riprende Antonelli 2026).
+
+## 21. Gerundio irrelato
+
+Il gerundio italiano, di norma, ha lo stesso soggetto della frase reggente. Quando il soggetto implicito del gerundio è un altro, il gerundio è *irrelato*: la frase resta comprensibile solo perché il lettore ricostruisce da sé chi fa che cosa. È un difetto di sintassi e non di stile. Diverso dal gerundio parassita della sezione 2, che ha il soggetto giusto ma non aggiunge nulla.
+
+**Struttura spia:** gerundio in apertura o in coda la cui azione non è compiuta dal soggetto grammaticale della principale. Il caso più insidioso è con la principale passiva o impersonale: *essendo arrivati tardi, la cena era fredda*; *leggendo il contratto, emergono tre clausole*.
+
+**Esempi negativi:**
+
+> «Entrando nel museo, la prima sala ospita la collezione egizia.» (chi entra non è la sala)
+
+> «Avendo analizzato i dati, il progetto è stato approvato.» (chi ha analizzato non è il progetto)
+
+> «Compilando il modulo, i dati vengono salvati automaticamente.»
+
+**Perché è un pattern AI:** l'Accademia della Crusca lo indica fra i fenomeni frequenti nei testi generati, con esempi tratti da Gemini (Massimo Palermo, *Sui testi generati dall'intelligenza artificiale. Verso un nuovo rapporto tra norma e uso?*, Accademia della Crusca, Tema del mese, 20 maggio 2026). È diffuso anche nelle scritture scolastiche e inesperte, quindi da solo non prova niente sulla paternità del testo. Il punto notato da Palermo è un altro: interrogato, il modello lo giustifica come scelta di stile (economia, coesione) e non lo riconosce come costruzione asintattica, che pesa su chi legge. Nel commento allo stesso articolo Riccardo Gualdo collega la sua diffusione all'influsso delle forme inglesi in *-ing* e alle traduzioni poco controllate: un calco, dunque, più che una scelta.
+
+**Come correggere (test diagnostico):** chiedersi chi compie l'azione del gerundio e chi è il soggetto della principale. Se non coincidono, si esplicita il soggetto con una subordinata di modo finito oppure si rifà la principale con il soggetto giusto.
+
+**Esempi riscritti:**
+
+> «Appena si entra nel museo, la prima sala ospita la collezione egizia.»
+
+> «Dopo aver analizzato i dati, la commissione ha approvato il progetto.»
+
+> «Quando si compila il modulo, i dati vengono salvati automaticamente.»
+
+**Eccezioni:** il gerundio con soggetto proprio espresso (*essendo il treno in ritardo, abbiamo preso un taxi*) è corretto. Lo sono anche alcune formule cristallizzate, come *generalmente parlando* o *volendo*, che nell'uso hanno perso il legame con un soggetto.
