@@ -69,6 +69,8 @@ L'io è onesto, e resta professionale come ogni altra scelta di persona. Sono se
 
 La macchina evita la prima persona reale (la usa solo come finzione retorica neutra tipo *come abbiamo visto, andiamo a esplorare*). L'autore umano la usa quando serve.
 
+**Limite:** le formule qui sopra valgono solo se dietro c'è un fatto vero. Chi scrive per conto di un altro non può inventare *ho provato per due anni a* o *mi sono sbagliato quando*: o l'esperienza l'ha fornita l'utente, o si chiede, o si lascia un segnaposto. Senza fatti, la prima persona onesta resta quella del giudizio (*trovo che, non sono convinto che*), che non finge un vissuto (regola 18 del `SKILL.md`).
+
 ### Tecnica cinque: lasciare entrare un po' di disordine
 
 La struttura perfetta sembra algoritmica. Tangenti, asides, pensieri non finiti sono umani.
@@ -136,6 +138,8 @@ Chi umanizza a mano, o con un altro modello, lascia tracce sue. Ecco i sintomi d
 5. **La complessità automatica.** *È una questione complicata, ha molte sfumature, non è tutto bianco o nero* messo per riflesso su qualsiasi tema. Ammettere la complessità vale se la complessità è reale e specifica, non come clausola di stile.
 
 6. **Il dettaglio sensoriale finto.** *Era una fredda mattina di novembre* appiccicato per spuntare la casella del concreto. Il dettaglio che pesa è vero e ricordato, non generico e verosimile: la macchina genera specificità plausibili, ed è esattamente ciò che l'umanizzazione pigra imita.
+
+7. **Il vissuto inventato.** L'aneddoto in prima persona creato dal nulla per dare calore: *ho cominciato a correre a quarantatré anni*, *la prima volta che ho sfornato una pagnotta*. È il sintomo più grave, perché non è solo di plastica: è falso, e chi pubblica il testo se ne assume la paternità. In un campione di 21 testi generati con questa skill attiva, quattro blog su sette aprivano o chiudevano con un aneddoto del genere. Si corregge con i fatti dell'utente, oppure togliendo l'aneddoto.
 
 Il test è uno solo, lo stesso dei maestri (in `maestri-della-deviazione.md`): una mossa d'anima è autentica se serve il contenuto e non la puoi togliere senza perdere senso. È di plastica se è decorativa, rimovibile, e la potresti incollare identica su qualunque altro testo. La digressione buona nasce dove il pensiero devia davvero; quella finta è messa perché «adesso tocca una digressione».
 

@@ -4,6 +4,17 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+## [1.6.0] - 2026-10-19
+
+Le prime due regole ricavate da un campione di output reale.
+
+### Aggiunto
+
+- `SKILL.md`: la regola 17, la virgola prima di *e* tra proposizioni, promossa da `references/grammatica-italiana.md` §8 fra le regole che valgono sempre. Su 21 testi generati con la 1.5.0 la virgola precedeva ancora il 34% delle *e*, spesso senza nessuno dei tre motivi ammessi: dentro una guida la regola non veniva applicata.
+- `SKILL.md`: la regola 18, il divieto di inventare esperienze personali. Nello stesso campione quattro blog su sette aprivano o chiudevano con un aneddoto in prima persona che il modello non poteva aver vissuto.
+- `references/personalita-e-anima.md`: il limite della tecnica quattro, che suggeriva formule come *ho provato per due anni a* senza dire che servono fatti veri, e il settimo sintomo del finto-umano, il vissuto inventato.
+- `README.md`: le regole dichiarate passano da sedici a diciotto.
+
 ## [1.5.0] - 2026-10-19
 
 Prima versione del fork `renatoromano-png/italiano-scrittura-anti-ai`, derivato dalla 1.4.0 di Mario Montanari.

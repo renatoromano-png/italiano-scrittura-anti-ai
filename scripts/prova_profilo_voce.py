@@ -336,7 +336,7 @@ def prova_decimali_allitaliana(radice: Path) -> None:
     )
     verifica(
         "la riga della versione resta col punto",
-        any("versione 1.5.0" in riga for riga in scheda.splitlines()),
+        any("versione 1.6.0" in riga for riga in scheda.splitlines()),
     )
     verifica(
         "nel profilo il numero resta un numero, e il JSON tiene il punto",
