@@ -196,6 +196,8 @@ Dove serve: fra due proposizioni indipendenti ma strettamente legate, quando il 
 
 Dove non serve: nei testi brevi, negli elenchi puntati, in apertura di paragrafo, e mai messo per riempire una quota. Un punto e virgola forzato è peggio di nessuno.
 
+**Quanti.** Il rischio opposto si è visto subito. Quando la skill chiedeva solo *almeno uno*, i blog generati ne hanno messi due o tre per articolo, 5,2 ogni 1000 parole contro l'1,6 della prosa umana. Il tetto è uno ogni 300 parole: in un articolo di 450 parole uno basta, in uno di 900 due.
+
 **I due punti** introducono discorso diretto, spiegazione, enumerazione, conseguenza logica.
 
 **I puntini di sospensione sono sempre tre** (…), mai più, mai meno. Preceduti e seguiti da spazio, tranne quando chiudono la frase.

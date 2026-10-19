@@ -4,6 +4,19 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+## [1.11.0] - 2026-10-19
+
+Le due correzioni chieste dal quinto campione.
+
+### Modificato
+
+- `SKILL.md`, regola 19: al minimo di un punto e virgola nella prosa oltre le 500 parole si aggiunge un tetto, uno ogni 300 parole. Con il solo minimo i blog ne avevano 5,2 ogni 1000 parole, più di tre volte la prosa umana di PAISÀ (1,6). `references/grammatica-italiana.md` §8 e la checklist si allineano.
+- `SKILL.md`, regola 17, e `scripts/controlla_testo.py`: la soglia di una virgola prima di *e* ogni 400 parole vale solo per i testi di almeno 400 parole. Nei testi brevi due virgole lecite bastavano a superarla.
+
+### Aggiunto
+
+- `scripts/controlla_testo.py`: il controllo dei punti e virgola oltre il tetto. Sui blog umani di PAISÀ scatta in 40 testi su 300, sul quinto campione in 8 su 21. Ventotto autoprove.
+
 ### Aggiunto
 
 - `extras/campioni/v1.10.0` e il quinto confronto nel `RAPPORTO.md`. I titoletti in grassetto spariscono e nei blog la virgola prima di *e* scende al 3,9%, sotto il 7% umano. Il punto e virgola sale invece a 5,2 ogni 1000 parole nei blog, oltre tre volte la prosa umana.

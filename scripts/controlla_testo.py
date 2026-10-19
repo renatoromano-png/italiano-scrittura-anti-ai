@@ -63,6 +63,11 @@ MAX_SEGNAPOSTO = 3
 # Nella prosa umana (PAISÀ) la virgola prima di «e» compare circa una volta ogni
 # 550 parole: oltre una ogni 400 il testo ne ha troppe anche se ognuna è lecita.
 PAROLE_PER_VIRGOLA_E = 400
+# La soglia sulle virgole vale solo dai 400 parole in su: in un testo breve
+# due virgole lecite bastano a superarla.
+MIN_PAROLE_SOGLIA_VIRGOLE = 400
+# Nei blog umani il punto e virgola compare circa una volta ogni 600 parole.
+PAROLE_PER_PUNTO_E_VIRGOLA = 300
 
 
 def controlla(testo):
@@ -90,10 +95,15 @@ def controlla(testo):
     prosa = "\n".join(r for r in prosa.splitlines() if not re.match(r"^\s*(?:[-*#]|\d+\.)\s", r))
     virgole_e = sum(1 for t in trovati if t[2] in ("virgola prima di e", "virgola di Oxford"))
     parole = len(prosa.split())
-    if virgole_e >= 2 and virgole_e * PAROLE_PER_VIRGOLA_E > parole:
+    if parole >= MIN_PAROLE_SOGLIA_VIRGOLE and virgole_e >= 2 and virgole_e * PAROLE_PER_VIRGOLA_E > parole:
         trovati.append((0, 0, "troppe virgole prima di e", "certo", "regola 17",
                         f"{virgole_e} in {parole} parole",
                         f"al massimo una ogni {PAROLE_PER_VIRGOLA_E} parole: la prosa umana ne usa circa una ogni 550"))
+    punti_e_virgola = prosa.count(";")
+    if punti_e_virgola >= 2 and punti_e_virgola * PAROLE_PER_PUNTO_E_VIRGOLA > parole:
+        trovati.append((0, 0, "troppi punti e virgola", "certo", "regola 19",
+                        f"{punti_e_virgola} in {parole} parole",
+                        f"al massimo uno ogni {PAROLE_PER_PUNTO_E_VIRGOLA} parole: la prosa umana ne usa circa uno ogni 600"))
     if len(prosa.split()) > 500 and ";" not in prosa:
         trovati.append((0, 0, "nessun punto e virgola", "verifica", "regola 19",
                         f"{len(prosa.split())} parole di prosa",
@@ -137,8 +147,11 @@ def prova():
         ("- **Sicurezza:** la sicurezza è rafforzata.", "titoletto in grassetto", True),
         ("Il margine è **molto** basso.", "titoletto in grassetto", False),
         ("Testo." + chr(10) * 2 + "**Da completare**" + chr(10) + "- prezzo", "titoletto in grassetto", False),
-        ("Piove, e noi usciamo. " + "parola " * 300 + "Sole, e loro restano.", "troppe virgole prima di e", True),
+        ("Piove, e noi usciamo. " + "parola " * 500 + "Sole, e loro restano. Vento, e lei parte.", "troppe virgole prima di e", True),
         ("Piove, e noi usciamo. " + "parola " * 900 + "Sole, e loro restano.", "troppe virgole prima di e", False),
+        ("Piove, e noi usciamo. " + "parola " * 250 + "Sole, e loro restano.", "troppe virgole prima di e", False),
+        ("Uno; " + "parola " * 300 + "due; " + "parola " * 100 + "tre.", "troppi punti e virgola", True),
+        ("Uno; " + "parola " * 650 + "due.", "troppi punti e virgola", False),
     ]
     falliti = 0
     for testo, nome, atteso in casi:
