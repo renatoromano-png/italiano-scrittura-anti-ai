@@ -4,6 +4,11 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- `extras/campiona_paisa.py`: estrae da PAISÀ, corpus di web italiano del 2010, un campione ripetibile di prosa umana diviso fra blog, altro web e Wikipedia.
+- `extras/campioni/RAPPORTO.md`: il confronto con il riferimento umano. Chi scrive sul web mette la virgola davanti al 7% delle *e*: con la 1.7.0 i testi di marketing e professionali sono in linea, i blog ancora al doppio. Nei blog umani il punto e virgola compare 1,6 volte ogni 1000 parole, in quelli di Claude mai. Il gerundio in coda è invece più frequente nella prosa umana: non è un tic da vietare.
+
 ## [1.8.0] - 2026-10-19
 
 Uno strumento per controllare una bozza riga per riga, e le misure che hanno portato alle regole 17 e 18.

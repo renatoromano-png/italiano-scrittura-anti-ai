@@ -97,3 +97,29 @@ Stesse richieste, tre agenti nuovi, regole 17 e 18 corrette. 7.207 parole. Misur
 **Regola 18:** niente vissuto inventato, segnaposto scesi da 41 a 14. In 13 testi i dati mancanti stanno ora nell'elenco *Da completare*, e il testo si legge senza parentesi. Un solo testo supera il limite di tre segnaposto: la lettera di candidatura, con quattro.
 
 **Da tenere d'occhio:** gli elenchi puntati sono rimasti più frequenti che nella 1.5.0. Per un verbale o una circolare possono servire, ma vanno controllati nei prossimi campioni.
+
+---
+
+# Riferimento umano: PAISÀ
+
+PAISÀ è un corpus di web italiano raccolto nel 2010, prima dei modelli linguistici (licenza CC BY-NC-SA, http://hdl.handle.net/20.500.12124/3). Circa due terzi dei documenti vengono da Wikipedia, quindi l'ho diviso in tre gruppi secondo l'indirizzo: blog, altro web, Wikipedia. Da ciascuno ho estratto 300 documenti fra 250 e 800 parole, circa 130.000 parole per gruppo, con `extras/campiona_paisa.py` (seme fisso, campione ripetibile). Il corpus non sta nella repo.
+
+| Misura | PAISÀ blog | PAISÀ altro web | PAISÀ Wikipedia | Claude blog 1.5.0 | Claude blog 1.7.0 | Claude marketing e professionale 1.7.0 |
+|---|---|---|---|---|---|---|
+| *e* precedute da virgola | 7,0% | 6,8% | 9,3% | 32,9% | 15,8% | 7,1% |
+| Punto e virgola ogni 1000 parole | 1,6 | 2,0 | 2,4 | 0 | 0 | 3,0 |
+| Due punti ogni 1000 parole | 9,6 | 14,0 | 4,1 | 6,2 | 7,7 | 9,0 |
+| Gerundi in coda ogni 1000 parole | 1,37 | 1,24 | 1,98 | 0,94 | 0,35 | 0,69 |
+| *non solo X ma Y* ogni 1000 parole | 0,10 | 0,12 | 0,05 | 0 | 0 | 0 |
+| Em-dash ogni 1000 parole | 0,04 | 0,10 | 0,39 | 0 | 0 | 0 |
+| Variazione lunghezza frasi | 0,64 | 0,66 | 0,53 | 0,51 | 0,57 | 0,60 |
+
+**Virgola prima di *e*.** Chi scriveva sul web italiano la metteva davanti al 7% delle *e*. Claude partiva da quasi cinque volte tanto. Con la 1.7.0 i testi di marketing e professionali sono in linea con la prosa umana, mentre i blog sono ancora al doppio. La regola 17 è confermata dai numeri; il registro blog resta da sorvegliare.
+
+**Punto e virgola.** Nei blog umani compare 1,6 volte ogni 1000 parole, nei blog di Claude mai. La skill dice già che i modelli lo usano poco: ora c'è la misura.
+
+**Gerundio in coda.** Nella prosa umana è più frequente che nei testi di Claude, che ne usano da un terzo a metà. Non serve quindi una regola contro la catena di gerundi: l'uso in sé non è un tic, e conviene correggere solo i casi parassiti o irrelati.
+
+**Variazione della lunghezza delle frasi.** I blog di Claude sono un po' più regolari di quelli umani (0,57 contro 0,64): la differenza c'è, ma è piccola.
+
+**Limiti.** I blog di Claude sono solo sette per versione. PAISÀ ha sedici anni e alcuni documenti di blog uniscono più articoli o commenti. Le misure sono euristiche: servono a confrontare ordini di grandezza, non a giudicare un testo singolo.

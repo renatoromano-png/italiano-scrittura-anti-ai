@@ -186,3 +186,10 @@ python extras/misura_campione.py extras/campioni/v1.5.0 extras/campioni/v1.6.0 e
 ```
 
 In `campioni/` ci sono tre campioni di 21 testi ciascuno, generati con le stesse richieste dalle versioni 1.5.0, 1.6.0 e 1.7.0, insieme al `RAPPORTO.md` che li analizza. Sono la base misurata delle regole 17 e 18. Né lo script né i campioni finiscono nello zip del plugin.
+
+Per un riferimento umano, `campiona_paisa.py` estrae un campione dal corpus PAISÀ, che va scaricato a parte:
+
+```bash
+python extras/campiona_paisa.py paisa.raw.utf8.gz riferimento
+python extras/misura_campione.py riferimento/paisa-blog extras/campioni/v1.7.0
+```
