@@ -170,3 +170,26 @@ Stesse richieste, versione 1.10.0 con la regola 20 sui titoletti in grassetto e 
 **Virgola prima di *e* nei blog.** Dal 12,5% al 3,9%, per la prima volta sotto la prosa umana. I tre testi che superano la soglia sono di marketing e brevi: due virgole in 265-308 parole, ciascuna con un cambio di soggetto. Per un testo così corto la soglia di una ogni 400 parole è forse troppo stretta.
 
 **Punto e virgola: correzione eccessiva.** I blog sono passati da 2,4 a 5,2 ogni 1000 parole, più di tre volte la prosa umana, con due o tre punti e virgola per articolo. Sono usati in modo corretto (*la catena allungata mangia gli ingranaggi; cambiare catena, pignoni e corona…*), ma la frequenza si fa notare. La regola 19 chiede *almeno uno*; il modello l'ha presa come una quota. Serve un tetto, oltre che un minimo.
+
+---
+
+# Sesto campione: versione 1.11.0
+
+Stesse richieste, versione 1.11.0 con il tetto al punto e virgola. 7.114 parole.
+
+| Misura | 1.5.0 | 1.10.0 | 1.11.0 | PAISÀ blog |
+|---|---|---|---|---|
+| Punto e virgola nei blog ogni 1000 parole | 0 | 5,2 | 2,5 | 1,6 |
+| *e* precedute da virgola, solo blog | 32,9% | 3,9% | 0% | 7,0% |
+| *e* precedute da virgola, tutti i registri | 33,9% | 8,4% | 1,8% | |
+| Due punti nei blog ogni 1000 parole | 6,2 | 7,8 | 4,2 | 9,6 |
+| Variazione lunghezza frasi, blog | 0,51 | 0,57 | 0,51 | 0,64 |
+| Violazioni certe trovate dallo script | | 3 | 2 | |
+
+**Punto e virgola.** Il tetto ha funzionato: da 5,2 a 2,5 ogni 1000 parole. Ma ogni blog ne ha esattamente uno, né zero né due. Il valore medio è vicino a quello umano, la distribuzione no: il modello tratta la regola come una casella da spuntare.
+
+**Virgola prima di *e*: ora troppo poche.** Nei blog nessuna, su tutti i registri l'1,8%, contro il 7% della prosa umana. Il tic iniziale è scomparso. Al suo posto c'è l'eccesso opposto, perché il modello evita anche le virgole lecite (cambio di soggetto, stacco ritmico). Nessun lettore se ne accorgerebbe, ma l'assenza totale di un tratto comune è anch'essa un segnale statistico, come lo era l'assenza del punto e virgola.
+
+**Cosa resta lontano dalla prosa umana.** La variazione della lunghezza delle frasi (0,51 contro 0,64), che sei versioni non hanno spostato, e i due punti nei blog, scesi a meno della metà del valore umano.
+
+**Conclusione dopo sei campioni.** Le regole che vietano un tic (em-dash, contrasto fittizio, vissuto inventato, titoletti in grassetto, suspense) lo eliminano in una o due versioni e non producono effetti collaterali. Le regole di frequenza (virgola prima di *e*, punto e virgola) tendono invece a oscillare: prima troppo, poi troppo poco, poi un valore fisso. Stringerle ancora rischia di sostituire un tic con un altro. Il passo successivo è lavorare sulla variazione, con regole che chiedono di alternare invece di fissare quote.
