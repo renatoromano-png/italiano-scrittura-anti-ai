@@ -190,7 +190,11 @@ La virgola resta legittima in tre casi:
 
 Fuori da questi casi si toglie la virgola, oppure si spezza il periodo con un punto o un punto e virgola. Una buona prova: se al posto della virgola il punto non funziona e il ritmo non chiede una pausa, la virgola è di troppo.
 
-**Il punto e virgola** è centrale nella prosa italiana colta: separa coordinate complesse o elementi di elenchi articolati. I modelli linguistici lo usano poco: inserirlo aumenta la naturalezza del testo.
+**Il punto e virgola** è centrale nella prosa italiana colta: separa coordinate complesse o elementi di elenchi articolati. I modelli linguistici lo usano poco, e la misura lo conferma. Nei blog del corpus PAISÀ (web italiano del 2010, prima dei modelli) compare 1,6 volte ogni 1000 parole, in Wikipedia 2,4. Nei 21 blog generati con le versioni 1.5.0-1.7.0 di questa skill non è comparso mai, nemmeno una volta (`extras/campioni/RAPPORTO.md`).
+
+Dove serve: fra due proposizioni indipendenti ma strettamente legate, quando il punto spezzerebbe troppo e la virgola legherebbe troppo poco. Spesso è proprio il posto in cui il modello mette una virgola seguita da *e*: *Il fornaio cuoce pezzature grandi; una pagnotta da un chilo ha più mollica* invece di *Il fornaio cuoce pezzature grandi, e una pagnotta da un chilo…*. Serve anche negli elenchi in prosa con voci lunghe che contengono già virgole.
+
+Dove non serve: nei testi brevi, negli elenchi puntati, in apertura di paragrafo, e mai messo per riempire una quota. Un punto e virgola forzato è peggio di nessuno.
 
 **I due punti** introducono discorso diretto, spiegazione, enumerazione, conseguenza logica.
 

@@ -81,6 +81,12 @@ def controlla(testo):
         trovati.append((0, 0, "troppi segnaposto", "certo", "regola 18",
                         f"{len(segnaposto)} segnaposto",
                         f"al massimo {MAX_SEGNAPOSTO}: gli altri dati vanno nell'elenco «Da completare»"))
+    prosa = testo.split("Da completare")[0]
+    prosa = "\n".join(r for r in prosa.splitlines() if not re.match(r"^\s*(?:[-*#]|\d+\.)\s", r))
+    if len(prosa.split()) > 500 and ";" not in prosa:
+        trovati.append((0, 0, "nessun punto e virgola", "verifica", "regola 19",
+                        f"{len(prosa.split())} parole di prosa",
+                        "nella prosa oltre le 500 parole almeno un punto e virgola dove due proposizioni legate lo chiedono"))
     return sorted(trovati)
 
 
@@ -112,6 +118,10 @@ def prova():
         ("Prezzo [prezzo].\n\nDa completare\n- [a] [b] [c] [d]", "troppi segnaposto", False),
         ("Ho scritto \"ciao\".", "virgolette inglesi", True),
         ("Ho scritto «ciao».", "virgolette inglesi", False),
+        ("Una frase qualsiasi. " * 200, "nessun punto e virgola", True),
+        ("Una frase qualsiasi; " * 200, "nessun punto e virgola", False),
+        ("Breve testo senza punto e virgola.", "nessun punto e virgola", False),
+        ("Il motivo preciso è questo. Poi il resto.", "suspense", True),
     ]
     falliti = 0
     for testo, nome, atteso in casi:

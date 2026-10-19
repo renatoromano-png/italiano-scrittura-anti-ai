@@ -39,6 +39,7 @@ Scorrere in ordine. Ogni voce è un controllo discreto, con azione pratica.
 - [ ] **Virgolette alte (" ")** solo per citazioni dentro citazioni, parole in senso ironico, testate giornalistiche
 - [ ] **Nessuna virgola di Oxford**: *A, B e C*, non *A, B, e C*
 - [ ] **Niente virgola prima di *e* tra proposizioni**, salvo cambio di soggetto ambiguo, stacco ritmico o *e* avversativa: cercare `, e ` e giustificare ogni occorrenza; con lo stesso soggetto va sempre tolta
+- [ ] **Almeno un punto e virgola** nella prosa continuata oltre le 500 parole, dove due proposizioni legate lo chiedono
 - [ ] **Nessun vissuto inventato**: la prima persona racconta solo fatti forniti dall'utente
 - [ ] **Dati pratici mancanti in fondo**: al massimo tre segnaposto nel testo, tutti gli altri dati nell'elenco *Da completare*
 - [ ] **Nessuna virgola fra soggetto e verbo**, né fra verbo e oggetto diretto
@@ -179,6 +180,7 @@ Altre stringhe da verificare rapidamente:
 - `Sulla base delle informazioni disponibili`
 - `, e ` (virgola prima di *e* tra proposizioni: tenerla solo nei tre casi ammessi da `grammatica-italiana.md` §8)
 - `non è` + `è` (struttura *non è X, è Y* che corregge un equivoco inesistente)
+- `è un altro.`, `è un'altra.`, `è questo.`, `è questa:` (suspense che rimanda il contenuto alla frase dopo)
 - `qui sta il punto`, `ecco la cosa`, `la verità è che`, `il fatto è che`
 - `come abbiamo visto`, `vedremo ora`, `andiamo a scoprirlo insieme`, `ti starai chiedendo`
 
@@ -217,6 +219,7 @@ Tabella finale di consultazione, consolidata dal documento principale e dal comp
 | Knowledge cutoff | *Sulla base delle informazioni disponibili* | Verificare e dichiarare fonte specifica |
 | Tono servile | *Ottima domanda! Spero ti sia utile!* | Eliminare senza sostituzione |
 | Parola spia | *approfondire il panorama* | Parola semplice e contestuale |
+| Suspense «è un altro» | *la strada più frequente è un'altra. È quella civile.* | Dire subito la cosa |
 | Domanda retorica generica | *Ti sei mai chiesto…?* | Fatto concreto, aneddoto datato |
 | Meta-annuncio | *Andiamo a vedere insieme* | Entrare nel contenuto |
 | Frase adulatoria residua | *Hai perfettamente ragione, è un punto molto interessante* | Eliminare |

@@ -4,6 +4,20 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+## [1.9.0] - 2026-10-19
+
+Tre interventi ricavati dai campioni e dal confronto con PAISÀ.
+
+### Aggiunto
+
+- `SKILL.md`: la regola 19, almeno un punto e virgola nella prosa continuata oltre le 500 parole. Nei blog di PAISÀ compare 1,6 volte ogni 1000 parole, nei 21 blog generati dalle versioni 1.5.0-1.7.0 mai. `references/grammatica-italiana.md` §8 spiega dove serve, spesso al posto della virgola seguita da *e*, e dove non va forzato. `scripts/controlla_testo.py` lo segnala come punto da verificare.
+- `references/leak-conversazionale.md` §2: la suspense del *è un altro*, la frase che annuncia una cosa e la rimanda alla frase dopo (*la strada più frequente è un'altra. È quella civile.*). Entra anche fra le stringhe da cercare e nella tabella sinottica di `references/checklist-finale.md`.
+- `references/lessico-da-evitare.md` §7: quando l'apertura alternativa diventa schema. Nel primo campione tutti e sette i blog si aprivano con una scena; ora le aperture e le chiusure si scelgono dal contenuto e nei testi in serie si alternano. La regola 4 del `SKILL.md` lo richiama.
+
+### Modificato
+
+- `README.md`: le regole dichiarate passano da diciotto a diciannove.
+
 ### Aggiunto
 
 - `extras/campiona_paisa.py`: estrae da PAISÀ, corpus di web italiano del 2010, un campione ripetibile di prosa umana diviso fra blog, altro web e Wikipedia.
@@ -15,7 +29,7 @@ Uno strumento per controllare una bozza riga per riga, e le misure che hanno por
 
 ### Aggiunto
 
-- `scripts/controlla_testo.py`: controlla un testo riga per riga contro le regole non negoziabili e stampa le segnalazioni con riga, colonna ed estratto, distinguendo le violazioni certe dai punti da giustificare. Il `SKILL.md` chiede di lanciarlo sulla bozza prima della consegna. Quindici autoprove, che girano anche in continua.
+- `scripts/controlla_testo.py`: controlla un testo riga per riga contro le regole non negoziabili e stampa le segnalazioni con riga, colonna ed estratto, distinguendo le violazioni certe dai punti da giustificare. Il `SKILL.md` chiede di lanciarlo sulla bozza prima della consegna. Diciannove autoprove, che girano anche in continua.
 
 - `extras/misura_campione.py`: misura i tic ricorrenti in una cartella di testi generati e confronta più cartelle fra loro.
 - `extras/campioni/`: i tre campioni di 21 testi generati con la 1.5.0, la 1.6.0 e la 1.7.0, con il rapporto che li confronta. Con la 1.7.0 la virgola prima di *e* scende dal 33,9% al 10,6% delle *e*, gli aneddoti inventati spariscono e i segnaposto passano da 41 a 14.
