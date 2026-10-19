@@ -39,7 +39,8 @@ Scorrere in ordine. Ogni voce è un controllo discreto, con azione pratica.
 - [ ] **Virgolette alte (" ")** solo per citazioni dentro citazioni, parole in senso ironico, testate giornalistiche
 - [ ] **Nessuna virgola di Oxford**: *A, B e C*, non *A, B, e C*
 - [ ] **Niente virgola prima di *e* tra proposizioni**, salvo cambio di soggetto ambiguo, stacco ritmico o *e* avversativa: cercare `, e ` e giustificare ogni occorrenza; con lo stesso soggetto va sempre tolta
-- [ ] **Punto e virgola con misura**: almeno uno nella prosa oltre le 500 parole, mai più di uno ogni 300 parole
+- [ ] **Punto e virgola dove la sintassi lo chiede**: né per quota né evitato, mai più di uno ogni 200 parole
+- [ ] **Periodi lunghi presenti**: nella prosa continuata almeno qualche periodo oltre le 30 parole, non solo frasi corte tutte simili
 - [ ] **Nessun vissuto inventato**: la prima persona racconta solo fatti forniti dall'utente
 - [ ] **Dati pratici mancanti in fondo**: al massimo tre segnaposto nel testo, tutti gli altri dati nell'elenco *Da completare*
 - [ ] **Nessuna virgola fra soggetto e verbo**, né fra verbo e oggetto diretto

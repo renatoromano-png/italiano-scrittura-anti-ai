@@ -62,12 +62,18 @@ CONTROLLI = [
 MAX_SEGNAPOSTO = 3
 # Nella prosa umana (PAISÀ) la virgola prima di «e» compare circa una volta ogni
 # 550 parole: oltre una ogni 400 il testo ne ha troppe anche se ognuna è lecita.
-PAROLE_PER_VIRGOLA_E = 400
+PAROLE_PER_VIRGOLA_E = 200
 # La soglia sulle virgole vale solo dai 400 parole in su: in un testo breve
 # due virgole lecite bastano a superarla.
 MIN_PAROLE_SOGLIA_VIRGOLE = 400
+# Le regole di frequenza danno una misura, non una quota: lo script segnala
+# come certo solo l'eccesso evidente, oltre il triplo del valore umano.
 # Nei blog umani il punto e virgola compare circa una volta ogni 600 parole.
-PAROLE_PER_PUNTO_E_VIRGOLA = 300
+PAROLE_PER_PUNTO_E_VIRGOLA = 200
+# Nei blog umani di PAISÀ la frase media è di 25 parole e una su cinque
+# supera le 35; nei blog generati la media è 15 e quasi nessuna arriva a 35.
+MEDIA_FRASE_MINIMA = 17
+QUOTA_PERIODI_LUNGHI = 0.05
 
 
 def controlla(testo):
@@ -95,16 +101,24 @@ def controlla(testo):
     prosa = "\n".join(r for r in prosa.splitlines() if not re.match(r"^\s*(?:[-*#]|\d+\.)\s", r))
     virgole_e = sum(1 for t in trovati if t[2] in ("virgola prima di e", "virgola di Oxford"))
     parole = len(prosa.split())
-    if parole >= MIN_PAROLE_SOGLIA_VIRGOLE and virgole_e >= 2 and virgole_e * PAROLE_PER_VIRGOLA_E > parole:
+    if parole >= MIN_PAROLE_SOGLIA_VIRGOLE and virgole_e >= 3 and virgole_e * PAROLE_PER_VIRGOLA_E > parole:
         trovati.append((0, 0, "troppe virgole prima di e", "certo", "regola 17",
                         f"{virgole_e} in {parole} parole",
-                        f"al massimo una ogni {PAROLE_PER_VIRGOLA_E} parole: la prosa umana ne usa circa una ogni 550"))
+                        "la prosa umana ne usa circa una ogni 550 parole: tenere solo quelle dei tre casi ammessi"))
     punti_e_virgola = prosa.count(";")
     if punti_e_virgola >= 2 and punti_e_virgola * PAROLE_PER_PUNTO_E_VIRGOLA > parole:
         trovati.append((0, 0, "troppi punti e virgola", "certo", "regola 19",
                         f"{punti_e_virgola} in {parole} parole",
-                        f"al massimo uno ogni {PAROLE_PER_PUNTO_E_VIRGOLA} parole: la prosa umana ne usa circa uno ogni 600"))
-    if len(prosa.split()) > 500 and ";" not in prosa:
+                        "la prosa umana ne usa circa uno ogni 600 parole: tenere solo quelli che la sintassi chiede"))
+    frasi = [len(s.split()) for s in re.split(r"(?<=[.!?])\s+", " ".join(prosa.split())) if len(s.split()) > 2]
+    if len(frasi) >= 15:
+        media = sum(frasi) / len(frasi)
+        lunghi = sum(1 for n in frasi if n > 30) / len(frasi)
+        if media < MEDIA_FRASE_MINIMA and lunghi < QUOTA_PERIODI_LUNGHI:
+            trovati.append((0, 0, "frasi corte e uniformi", "verifica", "regola 15",
+                            f"media {media:.0f} parole, {100 * lunghi:.0f}% oltre le 30",
+                            "nella prosa umana la media è di 21-25 parole: unire in periodi lunghi i ragionamenti spezzati"))
+    if len(prosa.split()) > 900 and ";" not in prosa:
         trovati.append((0, 0, "nessun punto e virgola", "verifica", "regola 19",
                         f"{len(prosa.split())} parole di prosa",
                         "nella prosa oltre le 500 parole almeno un punto e virgola dove due proposizioni legate lo chiedono"))
@@ -139,19 +153,21 @@ def prova():
         ("Prezzo [prezzo].\n\nDa completare\n- [a] [b] [c] [d]", "troppi segnaposto", False),
         ("Ho scritto \"ciao\".", "virgolette inglesi", True),
         ("Ho scritto «ciao».", "virgolette inglesi", False),
-        ("Una frase qualsiasi. " * 200, "nessun punto e virgola", True),
-        ("Una frase qualsiasi; " * 200, "nessun punto e virgola", False),
+        ("Una frase qualsiasi. " * 350, "nessun punto e virgola", True),
+        ("Una frase qualsiasi; " * 350, "nessun punto e virgola", False),
         ("Breve testo senza punto e virgola.", "nessun punto e virgola", False),
         ("Il motivo preciso è questo. Poi il resto.", "suspense", True),
         ("**Margine.** Il margine lordo scende.", "titoletto in grassetto", True),
         ("- **Sicurezza:** la sicurezza è rafforzata.", "titoletto in grassetto", True),
         ("Il margine è **molto** basso.", "titoletto in grassetto", False),
         ("Testo." + chr(10) * 2 + "**Da completare**" + chr(10) + "- prezzo", "titoletto in grassetto", False),
-        ("Piove, e noi usciamo. " + "parola " * 500 + "Sole, e loro restano. Vento, e lei parte.", "troppe virgole prima di e", True),
+        ("Piove, e noi usciamo. " + "parola " * 400 + "Sole, e loro restano. Vento, e lei parte.", "troppe virgole prima di e", True),
         ("Piove, e noi usciamo. " + "parola " * 900 + "Sole, e loro restano.", "troppe virgole prima di e", False),
         ("Piove, e noi usciamo. " + "parola " * 250 + "Sole, e loro restano.", "troppe virgole prima di e", False),
-        ("Uno; " + "parola " * 300 + "due; " + "parola " * 100 + "tre.", "troppi punti e virgola", True),
+        ("Uno; " + "parola " * 150 + "due; " + "parola " * 100 + "tre; quattro.", "troppi punti e virgola", True),
         ("Uno; " + "parola " * 650 + "due.", "troppi punti e virgola", False),
+        ("Breve frase qui. " * 20, "frasi corte e uniformi", True),
+        (("Un periodo lungo che tiene insieme cause condizioni e conseguenze senza spezzarsi in frasi corte tutte uguali fra loro e che continua ancora un poco perché deve superare con margine la soglia delle trenta parole. " + "Breve frase qui. ") * 10, "frasi corte e uniformi", False),
     ]
     falliti = 0
     for testo, nome, atteso in casi:

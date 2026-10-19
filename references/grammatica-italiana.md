@@ -196,7 +196,7 @@ Dove serve: fra due proposizioni indipendenti ma strettamente legate, quando il 
 
 Dove non serve: nei testi brevi, negli elenchi puntati, in apertura di paragrafo, e mai messo per riempire una quota. Un punto e virgola forzato è peggio di nessuno.
 
-**Quanti.** Il rischio opposto si è visto subito. Quando la skill chiedeva solo *almeno uno*, i blog generati ne hanno messi due o tre per articolo, 5,2 ogni 1000 parole contro l'1,6 della prosa umana. Il tetto è uno ogni 300 parole: in un articolo di 450 parole uno basta, in uno di 900 due.
+**Quanti.** I campioni misurati hanno mostrato tre errori in fila. Senza indicazioni i blog generati non lo usavano mai. Con una soglia minima ne mettevano due o tre per articolo, 5,2 ogni 1000 parole contro l'1,6 della prosa umana. Con un tetto ne mettevano esattamente uno in ogni articolo, né zero né due. La prosa umana non ha quote: si mette dove due proposizioni lo chiedono, e un testo può non averne. Il limite superiore resta uno ogni 200 parole.
 
 **I due punti** introducono discorso diretto, spiegazione, enumerazione, conseguenza logica.
 

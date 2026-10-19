@@ -4,6 +4,19 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+## [1.12.0] - 2026-10-19
+
+Le regole di frequenza danno una misura, non una quota. Dopo sei campioni si è visto che fissare una soglia sposta il tic invece di toglierlo.
+
+### Modificato
+
+- `SKILL.md`, regola 15: non chiede più una frase breve e una lunga in ogni paragrafo. Dice invece che nella prosa umana di PAISÀ la frase media è di 25 parole e una su cinque supera le 35, mentre nei blog generati la media è 15 e quasi nessuna arriva a 35. Chiede di alternare frasi brevi e periodi lunghi secondo quello che si dice, senza spezzare un ragionamento in frasi coordinate.
+- `SKILL.md`, regola 17: la virgola prima di *e* si mette nei tre casi ammessi e si toglie negli altri, senza evitarla. Con la 1.11.0 era scesa all'1,8% delle *e*, contro il 7% umano.
+- `SKILL.md`, regola 19: il punto e virgola si usa dove la sintassi lo chiede. La 1.11.0 ne metteva esattamente uno per articolo; la regola nomina i tre estremi in cui i modelli cadono e lascia solo un limite superiore, uno ogni 200 parole.
+- `SKILL.md`: una nota in testa alle regole dice che per le regole 15, 17 e 19 sono segnali sia l'eccesso sia l'assenza sia il valore fisso.
+- `scripts/controlla_testo.py`: le soglie di frequenza segnalano solo l'eccesso evidente, oltre il triplo del valore umano; l'assenza del punto e virgola si segnala solo oltre le 900 parole. Nuovo controllo sulle frasi corte e uniformi, che scatta in 5 testi su 21 del sesto campione e in 6 blog umani su 300. Trenta autoprove.
+- `references/grammatica-italiana.md` §8 e `references/checklist-finale.md`: allineati.
+
 ### Aggiunto
 
 - `extras/campioni/v1.11.0` e il sesto confronto nel `RAPPORTO.md`. Il tetto riporta il punto e virgola nei blog a 2,5 ogni 1000 parole, ma ogni blog ne ha esattamente uno. La virgola prima di *e* scende all'1,8%, sotto il 7% umano: dopo il tic, la correzione eccessiva. Le regole di frequenza oscillano; quelle che vietano un tic no.
