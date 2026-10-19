@@ -16,9 +16,6 @@ Le due correzioni chieste dal quinto campione.
 ### Aggiunto
 
 - `scripts/controlla_testo.py`: il controllo dei punti e virgola oltre il tetto. Sui blog umani di PAISÀ scatta in 40 testi su 300, sul quinto campione in 8 su 21. Ventotto autoprove.
-
-### Aggiunto
-
 - `extras/campioni/v1.10.0` e il quinto confronto nel `RAPPORTO.md`. I titoletti in grassetto spariscono e nei blog la virgola prima di *e* scende al 3,9%, sotto il 7% umano. Il punto e virgola sale invece a 5,2 ogni 1000 parole nei blog, oltre tre volte la prosa umana.
 
 ## [1.10.0] - 2026-10-19
