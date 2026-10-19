@@ -4,6 +4,11 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- `extras/misura_campione.py`: misura i tic ricorrenti in una cartella di testi generati e confronta più cartelle fra loro.
+- `extras/campioni/`: i tre campioni di 21 testi generati con la 1.5.0, la 1.6.0 e la 1.7.0, con il rapporto che li confronta. Con la 1.7.0 la virgola prima di *e* scende dal 33,9% al 10,6% delle *e*, gli aneddoti inventati spariscono e i segnaposto passano da 41 a 14.
+
 ## [1.7.0] - 2026-10-19
 
 Correzione delle due regole della 1.6.0 dopo un secondo campione di 21 testi.

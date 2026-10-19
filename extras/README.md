@@ -176,3 +176,13 @@ In generale: la skill quando si attiva ha la parola finale (è il livello più i
 **Posso modificare i template?**
 
 Sì, sono pensati proprio per questo. La licenza MIT della skill copre anche i template: sono tuoi, falli evolvere come ti serve.
+
+## Misurare l'effetto delle regole
+
+`misura_campione.py` conta in una cartella di testi generati i tic che la skill vuole eliminare: la virgola prima di *e*, i gerundi in coda, i segnaposto, la suspense *è un altro*, gli elenchi e altri segnali. Con più cartelle stampa un confronto colonna per colonna:
+
+```bash
+python extras/misura_campione.py extras/campioni/v1.5.0 extras/campioni/v1.6.0 extras/campioni/v1.7.0
+```
+
+In `campioni/` ci sono tre campioni di 21 testi ciascuno, generati con le stesse richieste dalle versioni 1.5.0, 1.6.0 e 1.7.0, insieme al `RAPPORTO.md` che li analizza. Sono la base misurata delle regole 17 e 18. Né lo script né i campioni finiscono nello zip del plugin.
