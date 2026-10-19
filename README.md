@@ -3,10 +3,10 @@
 ![Suite per la lingua italiana e sistema avanzato anti AI: una macchina da scrivere meccanica con i tasti illuminati al neon, un foglio manoscritto nel rullo e pagine di scrittura a mano sullo sfondo.](assets/banner.png)
 
 [![Licenza MIT](https://img.shields.io/badge/licenza-MIT-4A5D23?style=for-the-badge)](LICENSE)
-[![Versione](https://img.shields.io/github/v/release/mario-montanari/italiano-scrittura-anti-ai?style=for-the-badge&label=versione&color=1C1A17)](CHANGELOG.md)
-[![Prove](https://img.shields.io/github/actions/workflow/status/mario-montanari/italiano-scrittura-anti-ai/prove.yml?style=for-the-badge&label=prove)](.github/workflows/prove.yml)
-[![CodeQL](https://img.shields.io/github/actions/workflow/status/mario-montanari/italiano-scrittura-anti-ai/codeql.yml?style=for-the-badge&label=CodeQL)](.github/workflows/codeql.yml)
-[![Stelle](https://img.shields.io/github/stars/mario-montanari/italiano-scrittura-anti-ai?style=for-the-badge&color=A4262C)](https://github.com/mario-montanari/italiano-scrittura-anti-ai/stargazers)
+[![Versione](https://img.shields.io/github/v/tag/renatoromano-png/italiano-scrittura-anti-ai?style=for-the-badge&label=versione&color=1C1A17)](CHANGELOG.md)
+[![Prove](https://img.shields.io/github/actions/workflow/status/renatoromano-png/italiano-scrittura-anti-ai/prove.yml?style=for-the-badge&label=prove)](.github/workflows/prove.yml)
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/renatoromano-png/italiano-scrittura-anti-ai/codeql.yml?style=for-the-badge&label=CodeQL)](.github/workflows/codeql.yml)
+[![Stelle](https://img.shields.io/github/stars/renatoromano-png/italiano-scrittura-anti-ai?style=for-the-badge&color=A4262C)](https://github.com/renatoromano-png/italiano-scrittura-anti-ai/stargazers)
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-plugin-D97757?style=flat-square&logo=claude&logoColor=white)](#come-plugin-in-claude-code)
 [![Claude Cowork](https://img.shields.io/badge/Claude_Cowork-stesso_formato-D97757?style=flat-square&logo=anthropic&logoColor=white)](#come-plugin-in-claude-cowork)
@@ -22,11 +22,11 @@
 [![Keep a Changelog](https://img.shields.io/badge/Keep_a_Changelog-1.1.0-E05735?style=flat-square)](CHANGELOG.md)
 [![SemVer](https://img.shields.io/badge/SemVer-2.0.0-3F4551?style=flat-square)](CHANGELOG.md)
 
-[![Ultimo commit](https://img.shields.io/github/last-commit/mario-montanari/italiano-scrittura-anti-ai?style=flat-square&label=ultimo%20commit)](https://github.com/mario-montanari/italiano-scrittura-anti-ai/commits/main)
-[![Commit dal rilascio](https://img.shields.io/github/commits-since/mario-montanari/italiano-scrittura-anti-ai/latest?style=flat-square&label=commit%20dal%20rilascio)](https://github.com/mario-montanari/italiano-scrittura-anti-ai/compare)
-[![Issue aperte](https://img.shields.io/github/issues/mario-montanari/italiano-scrittura-anti-ai?style=flat-square&label=issue)](https://github.com/mario-montanari/italiano-scrittura-anti-ai/issues)
-[![Contributori](https://img.shields.io/github/contributors/mario-montanari/italiano-scrittura-anti-ai?style=flat-square&label=contributori)](https://github.com/mario-montanari/italiano-scrittura-anti-ai/graphs/contributors)
-[![Dimensione](https://img.shields.io/github/repo-size/mario-montanari/italiano-scrittura-anti-ai?style=flat-square&label=dimensione)](https://github.com/mario-montanari/italiano-scrittura-anti-ai)
+[![Ultimo commit](https://img.shields.io/github/last-commit/renatoromano-png/italiano-scrittura-anti-ai?style=flat-square&label=ultimo%20commit)](https://github.com/renatoromano-png/italiano-scrittura-anti-ai/commits/main)
+[![Commit dal rilascio](https://img.shields.io/github/commits-since/renatoromano-png/italiano-scrittura-anti-ai/latest?style=flat-square&label=commit%20dal%20rilascio)](https://github.com/renatoromano-png/italiano-scrittura-anti-ai/compare)
+[![Issue aperte](https://img.shields.io/github/issues/renatoromano-png/italiano-scrittura-anti-ai?style=flat-square&label=issue)](https://github.com/renatoromano-png/italiano-scrittura-anti-ai/issues)
+[![Contributori](https://img.shields.io/github/contributors/renatoromano-png/italiano-scrittura-anti-ai?style=flat-square&label=contributori)](https://github.com/renatoromano-png/italiano-scrittura-anti-ai/graphs/contributors)
+[![Dimensione](https://img.shields.io/github/repo-size/renatoromano-png/italiano-scrittura-anti-ai?style=flat-square&label=dimensione)](https://github.com/renatoromano-png/italiano-scrittura-anti-ai)
 
 **Suite per la lingua italiana e sistema avanzato anti AI, in Claude e non solo.** Scrive secondo la norma, corregge e rivede testi già scritti, traduce senza calchi, cattura la voce di un autore e la misura, riconosce e smonta la firma della prosa generata, difende un testo umano segnalato da un rilevatore automatico.
 
@@ -144,11 +144,11 @@ Ed è una **skill semplice**, una cartella con dentro `SKILL.md`: si copia dove 
 ### Come plugin, in Claude Code
 
 ```bash
-claude plugin marketplace add mario-montanari/italiano-scrittura-anti-ai
-claude plugin install italiano-scrittura-anti-ai@mario-montanari-skills
+claude plugin marketplace add renatoromano-png/italiano-scrittura-anti-ai
+claude plugin install italiano-scrittura-anti-ai@renatoromano-skills
 ```
 
-La repo fa da catalogo di sé stessa: `.claude-plugin/marketplace.json` dichiara il marketplace `mario-montanari-skills`, che contiene questo unico plugin.
+La repo fa da catalogo di sé stessa: `.claude-plugin/marketplace.json` dichiara il marketplace `renatoromano-skills`, che contiene questo unico plugin.
 
 Per provarlo senza installare niente, da una copia locale della repo:
 
@@ -396,12 +396,18 @@ A tutti questi autori, istituzioni e progetti va il riconoscimento per aver forn
 
 <p align="right"><a href="#italiano-scrittura-anti-ai">torna in alto</a></p>
 
-## Autore
+## Autori
 
-**Mario Montanari**
+**Mario Montanari**, autore della skill originale
 
-Sito personale: [mariomontanari.it](https://mariomontanari.it)
+Sito personale: [mariomontanari.it](https://mariomontanari.it) · Repository originale: [mario-montanari/italiano-scrittura-anti-ai](https://github.com/mario-montanari/italiano-scrittura-anti-ai)
 
 Il progetto nasce da trent'anni di scrittura professionale e dall'osservazione sistematica dell'italiano prodotto dalle macchine. È pensato come contributo alla comunità italiana che lavora con Claude e con gli altri modelli linguistici.
+
+**Renato Romano**, curatore di questo fork
+
+Profilo GitHub: [renatoromano-png](https://github.com/renatoromano-png)
+
+Il fork prosegue lo sviluppo dalla versione 1.4.0 con regole nuove, ricavate dall'output reale e da fonti come l'Accademia della Crusca. Le differenze rispetto all'originale sono annotate nel [CHANGELOG](CHANGELOG.md).
 
 <p align="right"><a href="#italiano-scrittura-anti-ai">torna in alto</a></p>

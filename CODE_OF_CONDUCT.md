@@ -43,7 +43,7 @@ I comportamenti seguenti, così come le loro minacce e la loro promozione, sono 
 
 Non ogni tensione è una violazione del Codice. Quando però un episodio accade, è importante segnalarlo per tempo.
 
-**Per segnalare una possibile violazione, contatta il maintainer del progetto tramite i recapiti indicati sul suo profilo GitHub ([@mario-montanari](https://github.com/mario-montanari)).** Le segnalazioni sono trattate con serietà e riservatezza.
+**Per segnalare una possibile violazione, contatta il maintainer del progetto tramite i recapiti indicati sul suo profilo GitHub ([@renatoromano-png](https://github.com/renatoromano-png)).** Le segnalazioni sono trattate con serietà e riservatezza.
 
 Chi modera esamina ogni segnalazione, raccoglie gli elementi utili e mantiene il processo il più trasparente possibile, dando la precedenza alla sicurezza e alla riservatezza delle persone coinvolte.
 

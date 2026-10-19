@@ -4,6 +4,16 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+## [1.5.0] - 2026-10-19
+
+Prima versione del fork `renatoromano-png/italiano-scrittura-anti-ai`, derivato dalla 1.4.0 di Mario Montanari.
+
+### Fork
+
+- Manifest del plugin, catalogo, `CITATION.cff`, `README.md`, `LICENSE` e codice di condotta indicano ora il fork e il suo curatore. Mario Montanari resta autore della skill originale, con il suo copyright.
+- `extras/crea_zip_plugin.py`: costruisce lo zip da caricare su claude.ai, che accetta l'archivio solo con `.claude-plugin/plugin.json` e `SKILL.md` alla radice.
+- Il badge della versione legge i tag invece delle release.
+
 ### Aggiunto
 
 - `SKILL.md`: la sedicesima regola non negoziabile, il divieto del contrasto fittizio «non è X, è Y», la negazione seguita dalla riformulazione positiva. Il pattern stava già in `references/leak-conversazionale.md`, ma da lì si vede solo quando si apre la guida, e sul campo è il tic che i lettori segnalano più spesso: promosso fra le regole che valgono sempre, accanto al cugino «non solo X ma anche Y» della regola 8. Il `README.md` passa da quindici a sedici regole dichiarate.

@@ -1,10 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "mario-montanari-skills",
-  "description": "Le skill pubbliche di Mario Montanari per Claude Code e Claude Cowork.",
+  "name": "renatoromano-skills",
+  "description": "Le skill di Renato Romano per Claude Code e Claude Cowork.",
   "owner": {
-    "name": "Mario Montanari",
-    "url": "https://mariomontanari.it"
+    "name": "Renato Romano",
+    "url": "https://github.com/renatoromano-png"
   },
   "plugins": [
     {
