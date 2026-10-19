@@ -4,7 +4,13 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+## [1.8.0] - 2026-10-19
+
+Uno strumento per controllare una bozza riga per riga, e le misure che hanno portato alle regole 17 e 18.
+
 ### Aggiunto
+
+- `scripts/controlla_testo.py`: controlla un testo riga per riga contro le regole non negoziabili e stampa le segnalazioni con riga, colonna ed estratto, distinguendo le violazioni certe dai punti da giustificare. Il `SKILL.md` chiede di lanciarlo sulla bozza prima della consegna. Quindici autoprove, che girano anche in continua.
 
 - `extras/misura_campione.py`: misura i tic ricorrenti in una cartella di testi generati e confronta più cartelle fra loro.
 - `extras/campioni/`: i tre campioni di 21 testi generati con la 1.5.0, la 1.6.0 e la 1.7.0, con il rapporto che li confronta. Con la 1.7.0 la virgola prima di *e* scende dal 33,9% al 10,6% delle *e*, gli aneddoti inventati spariscono e i segnaposto passano da 41 a 14.

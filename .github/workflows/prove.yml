@@ -40,6 +40,9 @@ jobs:
       - name: Prove dello strumento
         run: python scripts/prova_profilo_voce.py
 
+      - name: Autoprova del controllo testo
+        run: python scripts/controlla_testo.py --prova
+
       - name: Autoprova dell'hook
         run: python extras/hooks/consenti-solo-profilo-voce.py --prova
 
