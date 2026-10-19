@@ -4,6 +4,16 @@ Tutte le modifiche rilevanti alla skill sono annotate qui. Il formato segue la c
 
 ## [Non rilasciato]
 
+## [1.7.0] - 2026-10-19
+
+Correzione delle due regole della 1.6.0 dopo un secondo campione di 21 testi.
+
+### Modificato
+
+- `SKILL.md`, regola 18: distingue il vissuto, che non si inventa mai, dai dati pratici mancanti (prezzi, date, telefoni, nomi). Con la 1.6.0 i testi di marketing si erano riempiti di segnaposto, 41 in otto testi. Ora il testo si scrive in modo che regga senza il dato, al massimo tre segnaposto, e il resto va in un elenco *Da completare* dopo il testo.
+- `SKILL.md`, regola 17: con la 1.6.0 la virgola prima di *e* era scesa dal 34% al 17% delle *e*, ma metà dei casi restava ingiustificata. La regola copre ora anche la fine degli elenchi, dice che con lo stesso soggetto la virgola va sempre tolta e chiede un controllo occorrenza per occorrenza prima della consegna.
+- `references/checklist-finale.md` e `references/personalita-e-anima.md`: allineati alle due regole.
+
 ## [1.6.0] - 2026-10-19
 
 Le prime due regole ricavate da un campione di output reale.

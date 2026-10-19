@@ -38,7 +38,9 @@ Scorrere in ordine. Ogni voce è un controllo discreto, con azione pratica.
 - [ ] **Virgolette caporali (« »)** per dialoghi e citazioni dirette
 - [ ] **Virgolette alte (" ")** solo per citazioni dentro citazioni, parole in senso ironico, testate giornalistiche
 - [ ] **Nessuna virgola di Oxford**: *A, B e C*, non *A, B, e C*
-- [ ] **Niente virgola prima di *e* tra proposizioni**, salvo cambio di soggetto ambiguo, stacco ritmico o *e* avversativa: cercare `, e ` e giustificare ogni occorrenza
+- [ ] **Niente virgola prima di *e* tra proposizioni**, salvo cambio di soggetto ambiguo, stacco ritmico o *e* avversativa: cercare `, e ` e giustificare ogni occorrenza; con lo stesso soggetto va sempre tolta
+- [ ] **Nessun vissuto inventato**: la prima persona racconta solo fatti forniti dall'utente
+- [ ] **Dati pratici mancanti in fondo**: al massimo tre segnaposto nel testo, tutti gli altri dati nell'elenco *Da completare*
 - [ ] **Nessuna virgola fra soggetto e verbo**, né fra verbo e oggetto diretto
 - [ ] **Puntini di sospensione sempre tre** (…)
 - [ ] **Titoli in minuscolo** tranne prima parola e nomi propri: *Come ottimizzare la SEO*, non *Come Ottimizzare la SEO*

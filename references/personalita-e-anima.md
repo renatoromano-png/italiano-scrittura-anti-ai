@@ -69,7 +69,7 @@ L'io è onesto, e resta professionale come ogni altra scelta di persona. Sono se
 
 La macchina evita la prima persona reale (la usa solo come finzione retorica neutra tipo *come abbiamo visto, andiamo a esplorare*). L'autore umano la usa quando serve.
 
-**Limite:** le formule qui sopra valgono solo se dietro c'è un fatto vero. Chi scrive per conto di un altro non può inventare *ho provato per due anni a* o *mi sono sbagliato quando*: o l'esperienza l'ha fornita l'utente, o si chiede, o si lascia un segnaposto. Senza fatti, la prima persona onesta resta quella del giudizio (*trovo che, non sono convinto che*), che non finge un vissuto (regola 18 del `SKILL.md`).
+**Limite:** le formule qui sopra valgono solo se dietro c'è un fatto vero. Chi scrive per conto di un altro non può inventare *ho provato per due anni a* o *mi sono sbagliato quando*: o l'esperienza l'ha fornita l'utente, o si chiede, o si toglie. I dati pratici mancanti (prezzi, date, nomi) seguono un'altra regola: vanno nell'elenco *Da completare* in fondo al testo. Senza fatti, la prima persona onesta resta quella del giudizio (*trovo che, non sono convinto che*), che non finge un vissuto (regola 18 del `SKILL.md`).
 
 ### Tecnica cinque: lasciare entrare un po' di disordine
 
